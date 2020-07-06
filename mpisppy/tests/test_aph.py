@@ -18,6 +18,7 @@ from mpisppy.examples.sizes.sizes import scenario_creator, \
                                        _rho_setter
 
 solvers = ["xpress_persistent", "gurobi_persistent", "cplex"]
+__version__ = 0.31
 
 for solvername in solvers:
     solver_available = pyo.SolverFactory(solvername).available(exception_flag=False)
