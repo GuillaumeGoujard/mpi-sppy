@@ -39,7 +39,7 @@ class Spoke(SPCommunicator):
         # the number of spokes is not expected to be large, it is probably OK.
         # The (minor) benefit is that free_windows does not need to know if it
         # was called by a hub or a spoke. If we ever move to dynamic spoke
-        # creation, thenthis needs to be reimagined.
+        # creation, then this needs to be reimagined.
         self.windows = [None for _ in range(self.n_spokes)]
         self.buffers = [None for _ in range(self.n_spokes)]
         for i in range(self.n_spokes):
