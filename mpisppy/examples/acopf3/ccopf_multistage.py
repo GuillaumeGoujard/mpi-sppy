@@ -24,6 +24,9 @@ comm = mpi.COMM_WORLD
 rank = comm.Get_rank()
 n_proc = comm.Get_size()
 
+# use this random stream for scenario creation
+# it will be reseeded for each scnario
+acstream = np.random.RandomState()
 
 #======= repair functions =====
 def FixFast(minutes):
@@ -41,7 +44,7 @@ def FixGaussian(minutes, mu, sigma):
     """
     # spell it out...
     Z = (minutes-mu)/sigma
-    u = np.random.rand()
+    u = acstream.rand()
     retval = u < scipy.norm.cdf(Z)
     return retval
 
@@ -85,6 +88,9 @@ def pysp2_callback(scenario_name,
 
     etree = cb_data["etree"]
     solver = cb_data["solver"]
+
+    # seed each scenario every time to avoid troubles
+    acstream.seed(etree.seed + scen_num)
 
     def lines_up_and_down(stage_md_dict, enode):
         # local routine to configure the lines in stage_md_dict for the scenario
