@@ -1,0 +1,33 @@
+nohup: ignoring input
+Models loaded are  dict_keys(['ARX', 'TGMRF', 'RealFrontTGMRF', 'Normal', 'SegmentedNormal'])
+******************************ARX******************************
+The x scenario start is: 2019-12-21 11:00:00-05:00
+Errors to fit the model 490
+WARNING: Empty constraint block written in LP format - solver may error
+/home/dlwoodruff/Documents/Research/TempScen/TempScen/RankHistCompetition/RankHistObj.py:138: RuntimeWarning: invalid value encountered in greater
+  L = np.argwhere(To_0[n] > temp_n)
+/home/dlwoodruff/Documents/Research/TempScen/TempScen/RankHistCompetition/RankHistObj.py:151: RuntimeWarning: invalid value encountered in greater
+  L = np.argwhere((To_1[n] - To_0[n]) > temp_n)
+
+
+******************************TGMRF******************************
+215
+update fs
+launch optim
+33.129384994506836  s
+
+
+******************************RealFrontTGMRF******************************
+215
+update fs
+launch optim
+32.771568298339844  s
+
+
+******************************Normal******************************
+
+
+******************************SegmentedNormal******************************
+215
+
+

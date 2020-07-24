@@ -1,0 +1,1830 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.835642,
+                    33.396103
+                ]
+            },
+            "properties": {
+                "Bus ID": 101,
+                "Bus Name": "Abel",
+                "BaseKV": 138.0,
+                "Bus Type": "PV",
+                "MW Load": 108.0,
+                "MVAR Load": 22.0,
+                "V Mag": 1.04777,
+                "V Angle": -7.7415199999999995,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 1,
+                "Sub Area": 11.0,
+                "Zone": 11.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.825933,
+                    33.357678
+                ]
+            },
+            "properties": {
+                "Bus ID": 102,
+                "Bus Name": "Adams",
+                "BaseKV": 138.0,
+                "Bus Type": "PV",
+                "MW Load": 97.0,
+                "MVAR Load": 20.0,
+                "V Mag": 1.0478299999999998,
+                "V Angle": -7.8178399999999995,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 1,
+                "Sub Area": 11.0,
+                "Zone": 12.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.670399,
+                    33.536833
+                ]
+            },
+            "properties": {
+                "Bus ID": 103,
+                "Bus Name": "Adler",
+                "BaseKV": 138.0,
+                "Bus Type": "PQ",
+                "MW Load": 180.0,
+                "MVAR Load": 37.0,
+                "V Mag": 1.01085,
+                "V Angle": -7.2109,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 1,
+                "Sub Area": 11.0,
+                "Zone": 11.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.825419,
+                    33.812304
+                ]
+            },
+            "properties": {
+                "Bus ID": 104,
+                "Bus Name": "Agricola",
+                "BaseKV": 138.0,
+                "Bus Type": "PQ",
+                "MW Load": 74.0,
+                "MVAR Load": 15.0,
+                "V Mag": 1.01765,
+                "V Angle": -10.566139999999999,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 1,
+                "Sub Area": 11.0,
+                "Zone": 11.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.999023,
+                    33.65956
+                ]
+            },
+            "properties": {
+                "Bus ID": 105,
+                "Bus Name": "Aiken",
+                "BaseKV": 138.0,
+                "Bus Type": "PQ",
+                "MW Load": 71.0,
+                "MVAR Load": 14.0,
+                "V Mag": 1.03568,
+                "V Angle": -10.70887,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 1,
+                "Sub Area": 11.0,
+                "Zone": 11.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.181924,
+                    33.738036
+                ]
+            },
+            "properties": {
+                "Bus ID": 106,
+                "Bus Name": "Alber",
+                "BaseKV": 138.0,
+                "Bus Type": "PQ",
+                "MW Load": 136.0,
+                "MVAR Load": 28.0,
+                "V Mag": 1.0324200000000001,
+                "V Angle": -13.27944,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": -100.0,
+                "Area": 1,
+                "Sub Area": 11.0,
+                "Zone": 12.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.701309,
+                    34.697262
+                ]
+            },
+            "properties": {
+                "Bus ID": 107,
+                "Bus Name": "Alder",
+                "BaseKV": 138.0,
+                "Bus Type": "PV",
+                "MW Load": 125.0,
+                "MVAR Load": 25.0,
+                "V Mag": 1.03745,
+                "V Angle": -11.27673,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 1,
+                "Sub Area": 11.0,
+                "Zone": 12.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.761644,
+                    34.459211
+                ]
+            },
+            "properties": {
+                "Bus ID": 108,
+                "Bus Name": "Alger",
+                "BaseKV": 138.0,
+                "Bus Type": "PQ",
+                "MW Load": 171.0,
+                "MVAR Load": 35.0,
+                "V Mag": 1.01024,
+                "V Angle": -13.749670000000002,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 1,
+                "Sub Area": 11.0,
+                "Zone": 12.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.308281,
+                    33.920436
+                ]
+            },
+            "properties": {
+                "Bus ID": 109,
+                "Bus Name": "Ali",
+                "BaseKV": 138.0,
+                "Bus Type": "PQ",
+                "MW Load": 175.0,
+                "MVAR Load": 36.0,
+                "V Mag": 1.0261,
+                "V Angle": -8.81524,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 1,
+                "Sub Area": 11.0,
+                "Zone": 13.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.292965,
+                    33.912793
+                ]
+            },
+            "properties": {
+                "Bus ID": 110,
+                "Bus Name": "Allen",
+                "BaseKV": 138.0,
+                "Bus Type": "PQ",
+                "MW Load": 195.0,
+                "MVAR Load": 40.0,
+                "V Mag": 1.05,
+                "V Angle": -10.62063,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 1,
+                "Sub Area": 11.0,
+                "Zone": 13.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.301118,
+                    33.904386
+                ]
+            },
+            "properties": {
+                "Bus ID": 111,
+                "Bus Name": "Anna",
+                "BaseKV": 230.0,
+                "Bus Type": "PQ",
+                "MW Load": 0.0,
+                "MVAR Load": 0.0,
+                "V Mag": 1.0276399999999999,
+                "V Angle": -3.9167400000000003,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 1,
+                "Sub Area": 11.0,
+                "Zone": 13.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.313402,
+                    33.910866
+                ]
+            },
+            "properties": {
+                "Bus ID": 112,
+                "Bus Name": "Archer",
+                "BaseKV": 230.0,
+                "Bus Type": "PQ",
+                "MW Load": 0.0,
+                "MVAR Load": 0.0,
+                "V Mag": 1.02024,
+                "V Angle": -2.42424,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 1,
+                "Sub Area": 11.0,
+                "Zone": 13.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.274657,
+                    34.35428
+                ]
+            },
+            "properties": {
+                "Bus ID": 113,
+                "Bus Name": "Arne",
+                "BaseKV": 230.0,
+                "Bus Type": "Ref",
+                "MW Load": 265.0,
+                "MVAR Load": 54.0,
+                "V Mag": 1.0394299999999999,
+                "V Angle": 0.0,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 1,
+                "Sub Area": 12.0,
+                "Zone": 14.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.819911,
+                    33.777086
+                ]
+            },
+            "properties": {
+                "Bus ID": 114,
+                "Bus Name": "Arnold",
+                "BaseKV": 230.0,
+                "Bus Type": "PV",
+                "MW Load": 194.0,
+                "MVAR Load": 39.0,
+                "V Mag": 1.04401,
+                "V Angle": -1.7305599999999999,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 1,
+                "Sub Area": 12.0,
+                "Zone": 16.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -115.329508,
+                    33.506184
+                ]
+            },
+            "properties": {
+                "Bus ID": 115,
+                "Bus Name": "Arthur",
+                "BaseKV": 230.0,
+                "Bus Type": "PV",
+                "MW Load": 317.0,
+                "MVAR Load": 64.0,
+                "V Mag": 1.04335,
+                "V Angle": 7.9597,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 1,
+                "Sub Area": 12.0,
+                "Zone": 16.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -115.321058,
+                    33.661031
+                ]
+            },
+            "properties": {
+                "Bus ID": 116,
+                "Bus Name": "Asser",
+                "BaseKV": 230.0,
+                "Bus Type": "PV",
+                "MW Load": 100.0,
+                "MVAR Load": 20.0,
+                "V Mag": 1.04565,
+                "V Angle": 7.56929,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 1,
+                "Sub Area": 12.0,
+                "Zone": 16.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -115.640809,
+                    33.575233
+                ]
+            },
+            "properties": {
+                "Bus ID": 117,
+                "Bus Name": "Aston",
+                "BaseKV": 230.0,
+                "Bus Type": "PQ",
+                "MW Load": 0.0,
+                "MVAR Load": 0.0,
+                "V Mag": 1.0478299999999998,
+                "V Angle": 11.43417,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 1,
+                "Sub Area": 12.0,
+                "Zone": 17.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -115.799956,
+                    33.544531
+                ]
+            },
+            "properties": {
+                "Bus ID": 118,
+                "Bus Name": "Astor",
+                "BaseKV": 230.0,
+                "Bus Type": "PV",
+                "MW Load": 333.0,
+                "MVAR Load": 68.0,
+                "V Mag": 1.05,
+                "V Angle": 12.524569999999999,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 1,
+                "Sub Area": 12.0,
+                "Zone": 17.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -115.369131,
+                    33.869079
+                ]
+            },
+            "properties": {
+                "Bus ID": 119,
+                "Bus Name": "Attar",
+                "BaseKV": 230.0,
+                "Bus Type": "PQ",
+                "MW Load": 181.0,
+                "MVAR Load": 37.0,
+                "V Mag": 1.03962,
+                "V Angle": 6.657769999999999,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 1,
+                "Sub Area": 12.0,
+                "Zone": 15.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -115.26247,
+                    34.244579
+                ]
+            },
+            "properties": {
+                "Bus ID": 120,
+                "Bus Name": "Attila",
+                "BaseKV": 230.0,
+                "Bus Type": "PQ",
+                "MW Load": 128.0,
+                "MVAR Load": 26.0,
+                "V Mag": 1.04399,
+                "V Angle": 7.7406,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 1,
+                "Sub Area": 12.0,
+                "Zone": 15.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -116.070778,
+                    33.527121
+                ]
+            },
+            "properties": {
+                "Bus ID": 121,
+                "Bus Name": "Attlee",
+                "BaseKV": 230.0,
+                "Bus Type": "PV",
+                "MW Load": 0.0,
+                "MVAR Load": 0.0,
+                "V Mag": 1.05,
+                "V Angle": 13.08653,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 1,
+                "Sub Area": 12.0,
+                "Zone": 17.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -116.324347,
+                    32.818864
+                ]
+            },
+            "properties": {
+                "Bus ID": 122,
+                "Bus Name": "Aubrey",
+                "BaseKV": 230.0,
+                "Bus Type": "PV",
+                "MW Load": 0.0,
+                "MVAR Load": 0.0,
+                "V Mag": 1.05,
+                "V Angle": 18.94978,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 1,
+                "Sub Area": 12.0,
+                "Zone": 17.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -115.068788,
+                    34.382
+                ]
+            },
+            "properties": {
+                "Bus ID": 123,
+                "Bus Name": "Austen",
+                "BaseKV": 230.0,
+                "Bus Type": "PV",
+                "MW Load": 0.0,
+                "MVAR Load": 0.0,
+                "V Mag": 1.05,
+                "V Angle": 9.05617,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 1,
+                "Sub Area": 12.0,
+                "Zone": 15.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.656488,
+                    33.542965
+                ]
+            },
+            "properties": {
+                "Bus ID": 124,
+                "Bus Name": "Avery",
+                "BaseKV": 230.0,
+                "Bus Type": "PQ",
+                "MW Load": 0.0,
+                "MVAR Load": 0.0,
+                "V Mag": 1.01155,
+                "V Angle": 2.3833900000000003,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 1,
+                "Sub Area": 12.0,
+                "Zone": 16.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.721496,
+                    36.255664
+                ]
+            },
+            "properties": {
+                "Bus ID": 201,
+                "Bus Name": "Bach",
+                "BaseKV": 138.0,
+                "Bus Type": "PV",
+                "MW Load": 108.0,
+                "MVAR Load": 22.0,
+                "V Mag": 1.04841,
+                "V Angle": -10.68973,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 2,
+                "Sub Area": 21.0,
+                "Zone": 21.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.745998,
+                    36.289963
+                ]
+            },
+            "properties": {
+                "Bus ID": 202,
+                "Bus Name": "Bacon",
+                "BaseKV": 138.0,
+                "Bus Type": "PV",
+                "MW Load": 97.0,
+                "MVAR Load": 20.0,
+                "V Mag": 1.04844,
+                "V Angle": -10.75906,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 2,
+                "Sub Area": 21.0,
+                "Zone": 22.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.975934,
+                    35.354402
+                ]
+            },
+            "properties": {
+                "Bus ID": 203,
+                "Bus Name": "Baffin",
+                "BaseKV": 138.0,
+                "Bus Type": "PQ",
+                "MW Load": 180.0,
+                "MVAR Load": 37.0,
+                "V Mag": 1.01886,
+                "V Angle": -10.47453,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 2,
+                "Sub Area": 21.0,
+                "Zone": 21.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.221868,
+                    36.190292
+                ]
+            },
+            "properties": {
+                "Bus ID": 204,
+                "Bus Name": "Bailey",
+                "BaseKV": 138.0,
+                "Bus Type": "PQ",
+                "MW Load": 74.0,
+                "MVAR Load": 15.0,
+                "V Mag": 1.0189,
+                "V Angle": -13.48479,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 2,
+                "Sub Area": 21.0,
+                "Zone": 21.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.983041,
+                    36.07923
+                ]
+            },
+            "properties": {
+                "Bus ID": 205,
+                "Bus Name": "Bain",
+                "BaseKV": 138.0,
+                "Bus Type": "PQ",
+                "MW Load": 71.0,
+                "MVAR Load": 14.0,
+                "V Mag": 1.03603,
+                "V Angle": -13.611870000000001,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 2,
+                "Sub Area": 21.0,
+                "Zone": 21.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.890347,
+                    35.787397
+                ]
+            },
+            "properties": {
+                "Bus ID": 206,
+                "Bus Name": "Bajer",
+                "BaseKV": 138.0,
+                "Bus Type": "PQ",
+                "MW Load": 136.0,
+                "MVAR Load": 28.0,
+                "V Mag": 1.03259,
+                "V Angle": -16.15672,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": -100.0,
+                "Area": 2,
+                "Sub Area": 21.0,
+                "Zone": 22.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.082849,
+                    36.052467
+                ]
+            },
+            "properties": {
+                "Bus ID": 207,
+                "Bus Name": "Baker",
+                "BaseKV": 138.0,
+                "Bus Type": "PV",
+                "MW Load": 125.0,
+                "MVAR Load": 25.0,
+                "V Mag": 1.0397299999999998,
+                "V Angle": -13.46606,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 2,
+                "Sub Area": 21.0,
+                "Zone": 22.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.317701,
+                    35.933814
+                ]
+            },
+            "properties": {
+                "Bus ID": 208,
+                "Bus Name": "Balch",
+                "BaseKV": 138.0,
+                "Bus Type": "PQ",
+                "MW Load": 171.0,
+                "MVAR Load": 35.0,
+                "V Mag": 1.01203,
+                "V Angle": -16.223589999999998,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 2,
+                "Sub Area": 21.0,
+                "Zone": 22.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.150833,
+                    35.805107
+                ]
+            },
+            "properties": {
+                "Bus ID": 209,
+                "Bus Name": "Balzac",
+                "BaseKV": 138.0,
+                "Bus Type": "PQ",
+                "MW Load": 175.0,
+                "MVAR Load": 36.0,
+                "V Mag": 1.0278100000000001,
+                "V Angle": -11.724089999999999,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 2,
+                "Sub Area": 21.0,
+                "Zone": 23.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.162881,
+                    35.787823
+                ]
+            },
+            "properties": {
+                "Bus ID": 210,
+                "Bus Name": "Banks",
+                "BaseKV": 138.0,
+                "Bus Type": "PQ",
+                "MW Load": 195.0,
+                "MVAR Load": 40.0,
+                "V Mag": 1.05,
+                "V Angle": -13.47986,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 2,
+                "Sub Area": 21.0,
+                "Zone": 23.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.167552,
+                    35.801485
+                ]
+            },
+            "properties": {
+                "Bus ID": 211,
+                "Bus Name": "Bardeen",
+                "BaseKV": 230.0,
+                "Bus Type": "PQ",
+                "MW Load": 0.0,
+                "MVAR Load": 0.0,
+                "V Mag": 1.02735,
+                "V Angle": -6.93336,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 2,
+                "Sub Area": 21.0,
+                "Zone": 23.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.146165,
+                    35.791445
+                ]
+            },
+            "properties": {
+                "Bus ID": 212,
+                "Bus Name": "Barkla",
+                "BaseKV": 230.0,
+                "Bus Type": "PQ",
+                "MW Load": 0.0,
+                "MVAR Load": 0.0,
+                "V Mag": 1.01921,
+                "V Angle": -5.253340000000001,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 2,
+                "Sub Area": 21.0,
+                "Zone": 23.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.622896,
+                    36.146095
+                ]
+            },
+            "properties": {
+                "Bus ID": 213,
+                "Bus Name": "Barlow",
+                "BaseKV": 230.0,
+                "Bus Type": "PV",
+                "MW Load": 265.0,
+                "MVAR Load": 54.0,
+                "V Mag": 1.03752,
+                "V Angle": -3.2151,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 2,
+                "Sub Area": 22.0,
+                "Zone": 24.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.492568,
+                    35.567611
+                ]
+            },
+            "properties": {
+                "Bus ID": 214,
+                "Bus Name": "Barry",
+                "BaseKV": 230.0,
+                "Bus Type": "PV",
+                "MW Load": 194.0,
+                "MVAR Load": 39.0,
+                "V Mag": 1.04335,
+                "V Angle": -4.68519,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 2,
+                "Sub Area": 22.0,
+                "Zone": 26.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.575774,
+                    35.148591
+                ]
+            },
+            "properties": {
+                "Bus ID": 215,
+                "Bus Name": "Barton",
+                "BaseKV": 230.0,
+                "Bus Type": "PV",
+                "MW Load": 317.0,
+                "MVAR Load": 64.0,
+                "V Mag": 1.0432700000000001,
+                "V Angle": 4.63351,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 2,
+                "Sub Area": 22.0,
+                "Zone": 26.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.730763,
+                    35.26149
+                ]
+            },
+            "properties": {
+                "Bus ID": 216,
+                "Bus Name": "Basov",
+                "BaseKV": 230.0,
+                "Bus Type": "PV",
+                "MW Load": 100.0,
+                "MVAR Load": 20.0,
+                "V Mag": 1.04556,
+                "V Angle": 4.70009,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 2,
+                "Sub Area": 22.0,
+                "Zone": 26.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.921164,
+                    35.087749
+                ]
+            },
+            "properties": {
+                "Bus ID": 217,
+                "Bus Name": "Bates",
+                "BaseKV": 230.0,
+                "Bus Type": "PQ",
+                "MW Load": 0.0,
+                "MVAR Load": 0.0,
+                "V Mag": 1.04847,
+                "V Angle": 8.818389999999999,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 2,
+                "Sub Area": 22.0,
+                "Zone": 27.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -115.077882,
+                    35.114907
+                ]
+            },
+            "properties": {
+                "Bus ID": 218,
+                "Bus Name": "Bayle",
+                "BaseKV": 230.0,
+                "Bus Type": "PV",
+                "MW Load": 333.0,
+                "MVAR Load": 68.0,
+                "V Mag": 1.05,
+                "V Angle": 9.99473,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 2,
+                "Sub Area": 22.0,
+                "Zone": 27.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.979182,
+                    35.419217
+                ]
+            },
+            "properties": {
+                "Bus ID": 219,
+                "Bus Name": "Bede",
+                "BaseKV": 230.0,
+                "Bus Type": "PQ",
+                "MW Load": 181.0,
+                "MVAR Load": 37.0,
+                "V Mag": 1.03946,
+                "V Angle": 4.212330000000001,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 2,
+                "Sub Area": 22.0,
+                "Zone": 25.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -115.446587,
+                    35.646696
+                ]
+            },
+            "properties": {
+                "Bus ID": 220,
+                "Bus Name": "Beethoven",
+                "BaseKV": 230.0,
+                "Bus Type": "PQ",
+                "MW Load": 128.0,
+                "MVAR Load": 26.0,
+                "V Mag": 1.0438,
+                "V Angle": 5.66449,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 2,
+                "Sub Area": 22.0,
+                "Zone": 25.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -115.197942,
+                    35.316322
+                ]
+            },
+            "properties": {
+                "Bus ID": 221,
+                "Bus Name": "Behring",
+                "BaseKV": 230.0,
+                "Bus Type": "PV",
+                "MW Load": 0.0,
+                "MVAR Load": 0.0,
+                "V Mag": 1.05,
+                "V Angle": 10.63209,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 2,
+                "Sub Area": 22.0,
+                "Zone": 27.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -115.29021,
+                    36.330981
+                ]
+            },
+            "properties": {
+                "Bus ID": 222,
+                "Bus Name": "Bell",
+                "BaseKV": 230.0,
+                "Bus Type": "PV",
+                "MW Load": 0.0,
+                "MVAR Load": 0.0,
+                "V Mag": 1.05,
+                "V Angle": 16.432029999999997,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 2,
+                "Sub Area": 22.0,
+                "Zone": 27.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -115.536446,
+                    35.82435
+                ]
+            },
+            "properties": {
+                "Bus ID": 223,
+                "Bus Name": "Bloch",
+                "BaseKV": 230.0,
+                "Bus Type": "PV",
+                "MW Load": 0.0,
+                "MVAR Load": 0.0,
+                "V Mag": 1.05,
+                "V Angle": 7.18151,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 2,
+                "Sub Area": 22.0,
+                "Zone": 25.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.960253,
+                    35.356438
+                ]
+            },
+            "properties": {
+                "Bus ID": 224,
+                "Bus Name": "Bordet",
+                "BaseKV": 230.0,
+                "Bus Type": "PQ",
+                "MW Load": 0.0,
+                "MVAR Load": 0.0,
+                "V Mag": 1.0145600000000001,
+                "V Angle": -0.96005,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 2,
+                "Sub Area": 22.0,
+                "Zone": 26.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.821765,
+                    35.047582
+                ]
+            },
+            "properties": {
+                "Bus ID": 301,
+                "Bus Name": "Cabell",
+                "BaseKV": 138.0,
+                "Bus Type": "PV",
+                "MW Load": 108.0,
+                "MVAR Load": 22.0,
+                "V Mag": 1.0486,
+                "V Angle": -9.34821,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 3,
+                "Sub Area": 31.0,
+                "Zone": 31.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.86486,
+                    35.029937
+                ]
+            },
+            "properties": {
+                "Bus ID": 302,
+                "Bus Name": "Cabot",
+                "BaseKV": 138.0,
+                "Bus Type": "PV",
+                "MW Load": 97.0,
+                "MVAR Load": 20.0,
+                "V Mag": 1.04864,
+                "V Angle": -9.431000000000001,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 3,
+                "Sub Area": 31.0,
+                "Zone": 32.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.04355,
+                    35.217543
+                ]
+            },
+            "properties": {
+                "Bus ID": 303,
+                "Bus Name": "Caesar",
+                "BaseKV": 138.0,
+                "Bus Type": "PQ",
+                "MW Load": 180.0,
+                "MVAR Load": 37.0,
+                "V Mag": 1.01045,
+                "V Angle": -8.576889999999999,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 3,
+                "Sub Area": 31.0,
+                "Zone": 31.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.563585,
+                    34.632091
+                ]
+            },
+            "properties": {
+                "Bus ID": 304,
+                "Bus Name": "Caine",
+                "BaseKV": 138.0,
+                "Bus Type": "PQ",
+                "MW Load": 74.0,
+                "MVAR Load": 15.0,
+                "V Mag": 1.01785,
+                "V Angle": -12.18784,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 3,
+                "Sub Area": 31.0,
+                "Zone": 31.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.510487,
+                    34.873885
+                ]
+            },
+            "properties": {
+                "Bus ID": 305,
+                "Bus Name": "Calvin",
+                "BaseKV": 138.0,
+                "Bus Type": "PQ",
+                "MW Load": 71.0,
+                "MVAR Load": 14.0,
+                "V Mag": 1.03609,
+                "V Angle": -12.35005,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 3,
+                "Sub Area": 31.0,
+                "Zone": 31.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.2762,
+                    34.887168
+                ]
+            },
+            "properties": {
+                "Bus ID": 306,
+                "Bus Name": "Camus",
+                "BaseKV": 138.0,
+                "Bus Type": "PQ",
+                "MW Load": 136.0,
+                "MVAR Load": 28.0,
+                "V Mag": 1.0326,
+                "V Angle": -14.94205,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": -100.0,
+                "Area": 3,
+                "Sub Area": 31.0,
+                "Zone": 32.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.878178,
+                    34.101266
+                ]
+            },
+            "properties": {
+                "Bus ID": 307,
+                "Bus Name": "Carew",
+                "BaseKV": 138.0,
+                "Bus Type": "PV",
+                "MW Load": 125.0,
+                "MVAR Load": 25.0,
+                "V Mag": 1.03804,
+                "V Angle": -12.54795,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 3,
+                "Sub Area": 31.0,
+                "Zone": 32.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.654258,
+                    34.224718
+                ]
+            },
+            "properties": {
+                "Bus ID": 308,
+                "Bus Name": "Carrel",
+                "BaseKV": 138.0,
+                "Bus Type": "PQ",
+                "MW Load": 171.0,
+                "MVAR Load": 35.0,
+                "V Mag": 1.0105600000000001,
+                "V Angle": -15.182870000000001,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 3,
+                "Sub Area": 31.0,
+                "Zone": 32.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.127342,
+                    34.735758
+                ]
+            },
+            "properties": {
+                "Bus ID": 309,
+                "Bus Name": "Carter",
+                "BaseKV": 138.0,
+                "Bus Type": "PQ",
+                "MW Load": 175.0,
+                "MVAR Load": 36.0,
+                "V Mag": 1.02579,
+                "V Angle": -10.44617,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 3,
+                "Sub Area": 31.0,
+                "Zone": 33.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.104525,
+                    34.729316
+                ]
+            },
+            "properties": {
+                "Bus ID": 310,
+                "Bus Name": "Caruso",
+                "BaseKV": 138.0,
+                "Bus Type": "PQ",
+                "MW Load": 195.0,
+                "MVAR Load": 40.0,
+                "V Mag": 1.05,
+                "V Angle": -12.301169999999999,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 3,
+                "Sub Area": 31.0,
+                "Zone": 33.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.111933,
+                    34.742094
+                ]
+            },
+            "properties": {
+                "Bus ID": 311,
+                "Bus Name": "Cary",
+                "BaseKV": 230.0,
+                "Bus Type": "PQ",
+                "MW Load": 0.0,
+                "MVAR Load": 0.0,
+                "V Mag": 1.0283,
+                "V Angle": -5.74069,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 3,
+                "Sub Area": 31.0,
+                "Zone": 33.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.119887,
+                    34.722963
+                ]
+            },
+            "properties": {
+                "Bus ID": 312,
+                "Bus Name": "Caxton",
+                "BaseKV": 230.0,
+                "Bus Type": "PQ",
+                "MW Load": 0.0,
+                "MVAR Load": 0.0,
+                "V Mag": 1.0190000000000001,
+                "V Angle": -4.14604,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 3,
+                "Sub Area": 31.0,
+                "Zone": 33.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.018855,
+                    34.265268
+                ]
+            },
+            "properties": {
+                "Bus ID": 313,
+                "Bus Name": "Cecil",
+                "BaseKV": 230.0,
+                "Bus Type": "PV",
+                "MW Load": 265.0,
+                "MVAR Load": 54.0,
+                "V Mag": 1.0380200000000002,
+                "V Angle": -2.41513,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 3,
+                "Sub Area": 32.0,
+                "Zone": 34.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.684879,
+                    34.944964
+                ]
+            },
+            "properties": {
+                "Bus ID": 314,
+                "Bus Name": "Chain",
+                "BaseKV": 230.0,
+                "Bus Type": "PV",
+                "MW Load": 194.0,
+                "MVAR Load": 39.0,
+                "V Mag": 1.04631,
+                "V Angle": -3.2079299999999997,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 3,
+                "Sub Area": 32.0,
+                "Zone": 36.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.386434,
+                    35.26597
+                ]
+            },
+            "properties": {
+                "Bus ID": 315,
+                "Bus Name": "Chase",
+                "BaseKV": 230.0,
+                "Bus Type": "PV",
+                "MW Load": 317.0,
+                "MVAR Load": 64.0,
+                "V Mag": 1.043,
+                "V Angle": 7.05088,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 3,
+                "Sub Area": 32.0,
+                "Zone": 36.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.251589,
+                    35.138367
+                ]
+            },
+            "properties": {
+                "Bus ID": 316,
+                "Bus Name": "Chifa",
+                "BaseKV": 230.0,
+                "Bus Type": "PV",
+                "MW Load": 100.0,
+                "MVAR Load": 20.0,
+                "V Mag": 1.04558,
+                "V Angle": 6.59875,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 3,
+                "Sub Area": 32.0,
+                "Zone": 36.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.055829,
+                    35.378433
+                ]
+            },
+            "properties": {
+                "Bus ID": 317,
+                "Bus Name": "Chuhsi",
+                "BaseKV": 230.0,
+                "Bus Type": "PQ",
+                "MW Load": 0.0,
+                "MVAR Load": 0.0,
+                "V Mag": 1.04785,
+                "V Angle": 10.34418,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 3,
+                "Sub Area": 32.0,
+                "Zone": 37.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -116.976571,
+                    35.505813
+                ]
+            },
+            "properties": {
+                "Bus ID": 318,
+                "Bus Name": "Clark",
+                "BaseKV": 230.0,
+                "Bus Type": "PV",
+                "MW Load": 333.0,
+                "MVAR Load": 68.0,
+                "V Mag": 1.05,
+                "V Angle": 11.34262,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 3,
+                "Sub Area": 32.0,
+                "Zone": 37.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.12442,
+                    34.917631
+                ]
+            },
+            "properties": {
+                "Bus ID": 319,
+                "Bus Name": "Clay",
+                "BaseKV": 230.0,
+                "Bus Type": "PQ",
+                "MW Load": 181.0,
+                "MVAR Load": 37.0,
+                "V Mag": 1.0395299999999998,
+                "V Angle": 5.91539,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 3,
+                "Sub Area": 32.0,
+                "Zone": 35.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.063508,
+                    34.462466
+                ]
+            },
+            "properties": {
+                "Bus ID": 320,
+                "Bus Name": "Clive",
+                "BaseKV": 230.0,
+                "Bus Type": "PQ",
+                "MW Load": 128.0,
+                "MVAR Load": 26.0,
+                "V Mag": 1.04389,
+                "V Angle": 7.197089999999999,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 3,
+                "Sub Area": 32.0,
+                "Zone": 35.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.115363,
+                    35.745344
+                ]
+            },
+            "properties": {
+                "Bus ID": 321,
+                "Bus Name": "Cobb",
+                "BaseKV": 230.0,
+                "Bus Type": "PV",
+                "MW Load": 0.0,
+                "MVAR Load": 0.0,
+                "V Mag": 1.05,
+                "V Angle": 12.34122,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 3,
+                "Sub Area": 32.0,
+                "Zone": 37.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.485272,
+                    36.438958
+                ]
+            },
+            "properties": {
+                "Bus ID": 322,
+                "Bus Name": "Cole",
+                "BaseKV": 230.0,
+                "Bus Type": "PV",
+                "MW Load": 0.0,
+                "MVAR Load": 0.0,
+                "V Mag": 1.05,
+                "V Angle": 18.06914,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 3,
+                "Sub Area": 32.0,
+                "Zone": 37.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.113221,
+                    34.253003
+                ]
+            },
+            "properties": {
+                "Bus ID": 323,
+                "Bus Name": "Comte",
+                "BaseKV": 230.0,
+                "Bus Type": "PV",
+                "MW Load": 0.0,
+                "MVAR Load": 0.0,
+                "V Mag": 1.05,
+                "V Angle": 8.62112,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 3,
+                "Sub Area": 32.0,
+                "Zone": 35.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.034817,
+                    35.206582
+                ]
+            },
+            "properties": {
+                "Bus ID": 324,
+                "Bus Name": "Curie",
+                "BaseKV": 230.0,
+                "Bus Type": "PQ",
+                "MW Load": 0.0,
+                "MVAR Load": 0.0,
+                "V Mag": 1.0104600000000001,
+                "V Angle": 1.30606,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 3,
+                "Sub Area": 32.0,
+                "Zone": 36.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.128977,
+                    34.251891
+                ]
+            },
+            "properties": {
+                "Bus ID": 325,
+                "Bus Name": "Curtiss",
+                "BaseKV": 230.0,
+                "Bus Type": "PQ",
+                "MW Load": 0.0,
+                "MVAR Load": 0.0,
+                "V Mag": 1.04986,
+                "V Angle": 8.993319999999999,
+                "MW Shunt G": 0.0,
+                "MVAR Shunt B": 0.0,
+                "Area": 3,
+                "Sub Area": 32.0,
+                "Zone": 35.0
+            }
+        }
+    ]
+}

@@ -1,0 +1,3845 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -113.835642,
+                        33.396103
+                    ],
+                    [
+                        -113.825933,
+                        33.357678
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "A1",
+                "From Bus": 101,
+                "To Bus": 102,
+                "R": 0.003,
+                "X": 0.013999999999999999,
+                "B": 0.461,
+                "Cont Rating": 175,
+                "LTE Rating": 193,
+                "STE Rating": 200,
+                "Perm OutRate": 0.24,
+                "Duration": 16,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.0,
+                "Length": 3.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -113.835642,
+                        33.396103
+                    ],
+                    [
+                        -114.670399,
+                        33.536833
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "A2",
+                "From Bus": 101,
+                "To Bus": 103,
+                "R": 0.055,
+                "X": 0.21100000000000002,
+                "B": 0.057,
+                "Cont Rating": 175,
+                "LTE Rating": 208,
+                "STE Rating": 220,
+                "Perm OutRate": 0.51,
+                "Duration": 10,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 2.9,
+                "Length": 55.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -113.835642,
+                        33.396103
+                    ],
+                    [
+                        -113.999023,
+                        33.65956
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "A3",
+                "From Bus": 101,
+                "To Bus": 105,
+                "R": 0.022000000000000002,
+                "X": 0.085,
+                "B": 0.023,
+                "Cont Rating": 175,
+                "LTE Rating": 208,
+                "STE Rating": 220,
+                "Perm OutRate": 0.33,
+                "Duration": 10,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 1.2,
+                "Length": 22.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -113.825933,
+                        33.357678
+                    ],
+                    [
+                        -113.825419,
+                        33.812304
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "A4",
+                "From Bus": 102,
+                "To Bus": 104,
+                "R": 0.033,
+                "X": 0.127,
+                "B": 0.034,
+                "Cont Rating": 175,
+                "LTE Rating": 208,
+                "STE Rating": 220,
+                "Perm OutRate": 0.39,
+                "Duration": 10,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 1.7,
+                "Length": 33.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -113.825933,
+                        33.357678
+                    ],
+                    [
+                        -114.181924,
+                        33.738036
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "A5",
+                "From Bus": 102,
+                "To Bus": 106,
+                "R": 0.05,
+                "X": 0.192,
+                "B": 0.052000000000000005,
+                "Cont Rating": 175,
+                "LTE Rating": 208,
+                "STE Rating": 220,
+                "Perm OutRate": 0.48,
+                "Duration": 10,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 2.6,
+                "Length": 50.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -114.670399,
+                        33.536833
+                    ],
+                    [
+                        -114.308281,
+                        33.920436
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "A6",
+                "From Bus": 103,
+                "To Bus": 109,
+                "R": 0.031,
+                "X": 0.11900000000000001,
+                "B": 0.032,
+                "Cont Rating": 175,
+                "LTE Rating": 208,
+                "STE Rating": 220,
+                "Perm OutRate": 0.38,
+                "Duration": 10,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 1.6,
+                "Length": 31.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -114.670399,
+                        33.536833
+                    ],
+                    [
+                        -114.656488,
+                        33.542965
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "A7",
+                "From Bus": 103,
+                "To Bus": 124,
+                "R": 0.002,
+                "X": 0.084,
+                "B": 0.0,
+                "Cont Rating": 400,
+                "LTE Rating": 510,
+                "STE Rating": 600,
+                "Perm OutRate": 0.02,
+                "Duration": 768,
+                "Tr Ratio": 1.015,
+                "Tran OutRate": 0.0,
+                "Length": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -113.825419,
+                        33.812304
+                    ],
+                    [
+                        -114.308281,
+                        33.920436
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "A8",
+                "From Bus": 104,
+                "To Bus": 109,
+                "R": 0.027000000000000003,
+                "X": 0.10400000000000001,
+                "B": 0.027999999999999997,
+                "Cont Rating": 175,
+                "LTE Rating": 208,
+                "STE Rating": 220,
+                "Perm OutRate": 0.36,
+                "Duration": 10,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 1.4,
+                "Length": 27.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -113.999023,
+                        33.65956
+                    ],
+                    [
+                        -114.292965,
+                        33.912793
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "A9",
+                "From Bus": 105,
+                "To Bus": 110,
+                "R": 0.023,
+                "X": 0.08800000000000001,
+                "B": 0.024,
+                "Cont Rating": 175,
+                "LTE Rating": 208,
+                "STE Rating": 220,
+                "Perm OutRate": 0.34,
+                "Duration": 10,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 1.2,
+                "Length": 23.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -114.181924,
+                        33.738036
+                    ],
+                    [
+                        -114.292965,
+                        33.912793
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "A10",
+                "From Bus": 106,
+                "To Bus": 110,
+                "R": 0.013999999999999999,
+                "X": 0.061,
+                "B": 2.459,
+                "Cont Rating": 175,
+                "LTE Rating": 193,
+                "STE Rating": 200,
+                "Perm OutRate": 0.33,
+                "Duration": 35,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.0,
+                "Length": 16.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -113.701309,
+                        34.697262
+                    ],
+                    [
+                        -113.761644,
+                        34.459211
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "A11",
+                "From Bus": 107,
+                "To Bus": 108,
+                "R": 0.016,
+                "X": 0.061,
+                "B": 0.017,
+                "Cont Rating": 175,
+                "LTE Rating": 208,
+                "STE Rating": 220,
+                "Perm OutRate": 0.3,
+                "Duration": 10,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.8,
+                "Length": 16.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -113.701309,
+                        34.697262
+                    ],
+                    [
+                        -113.975934,
+                        35.354402
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "AB1",
+                "From Bus": 107,
+                "To Bus": 203,
+                "R": 0.042,
+                "X": 0.161,
+                "B": 0.044000000000000004,
+                "Cont Rating": 175,
+                "LTE Rating": 208,
+                "STE Rating": 220,
+                "Perm OutRate": 0.44,
+                "Duration": 10,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 2.2,
+                "Length": 42.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -113.761644,
+                        34.459211
+                    ],
+                    [
+                        -114.308281,
+                        33.920436
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "A12-1",
+                "From Bus": 108,
+                "To Bus": 109,
+                "R": 0.043,
+                "X": 0.165,
+                "B": 0.045,
+                "Cont Rating": 175,
+                "LTE Rating": 208,
+                "STE Rating": 220,
+                "Perm OutRate": 0.44,
+                "Duration": 10,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 2.3,
+                "Length": 43.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -113.761644,
+                        34.459211
+                    ],
+                    [
+                        -114.292965,
+                        33.912793
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "A13-2",
+                "From Bus": 108,
+                "To Bus": 110,
+                "R": 0.043,
+                "X": 0.165,
+                "B": 0.045,
+                "Cont Rating": 175,
+                "LTE Rating": 208,
+                "STE Rating": 220,
+                "Perm OutRate": 0.44,
+                "Duration": 10,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 2.3,
+                "Length": 43.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -114.308281,
+                        33.920436
+                    ],
+                    [
+                        -114.301118,
+                        33.904386
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "A14",
+                "From Bus": 109,
+                "To Bus": 111,
+                "R": 0.002,
+                "X": 0.084,
+                "B": 0.0,
+                "Cont Rating": 400,
+                "LTE Rating": 510,
+                "STE Rating": 600,
+                "Perm OutRate": 0.02,
+                "Duration": 768,
+                "Tr Ratio": 1.03,
+                "Tran OutRate": 0.0,
+                "Length": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -114.308281,
+                        33.920436
+                    ],
+                    [
+                        -114.313402,
+                        33.910866
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "A15",
+                "From Bus": 109,
+                "To Bus": 112,
+                "R": 0.002,
+                "X": 0.084,
+                "B": 0.0,
+                "Cont Rating": 400,
+                "LTE Rating": 510,
+                "STE Rating": 600,
+                "Perm OutRate": 0.02,
+                "Duration": 768,
+                "Tr Ratio": 1.03,
+                "Tran OutRate": 0.0,
+                "Length": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -114.292965,
+                        33.912793
+                    ],
+                    [
+                        -114.301118,
+                        33.904386
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "A16",
+                "From Bus": 110,
+                "To Bus": 111,
+                "R": 0.002,
+                "X": 0.084,
+                "B": 0.0,
+                "Cont Rating": 400,
+                "LTE Rating": 510,
+                "STE Rating": 600,
+                "Perm OutRate": 0.02,
+                "Duration": 768,
+                "Tr Ratio": 1.015,
+                "Tran OutRate": 0.0,
+                "Length": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -114.292965,
+                        33.912793
+                    ],
+                    [
+                        -114.313402,
+                        33.910866
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "A17",
+                "From Bus": 110,
+                "To Bus": 112,
+                "R": 0.002,
+                "X": 0.084,
+                "B": 0.0,
+                "Cont Rating": 400,
+                "LTE Rating": 510,
+                "STE Rating": 600,
+                "Perm OutRate": 0.02,
+                "Duration": 768,
+                "Tr Ratio": 1.015,
+                "Tran OutRate": 0.0,
+                "Length": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -114.301118,
+                        33.904386
+                    ],
+                    [
+                        -114.274657,
+                        34.35428
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "A18",
+                "From Bus": 111,
+                "To Bus": 113,
+                "R": 0.006,
+                "X": 0.048,
+                "B": 0.1,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.4,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.8,
+                "Length": 33.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -114.301118,
+                        33.904386
+                    ],
+                    [
+                        -114.819911,
+                        33.777086
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "A19",
+                "From Bus": 111,
+                "To Bus": 114,
+                "R": 0.005,
+                "X": 0.042,
+                "B": 0.08800000000000001,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.39,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.7,
+                "Length": 29.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -114.313402,
+                        33.910866
+                    ],
+                    [
+                        -114.274657,
+                        34.35428
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "A20",
+                "From Bus": 112,
+                "To Bus": 113,
+                "R": 0.006,
+                "X": 0.048,
+                "B": 0.1,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.4,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.8,
+                "Length": 33.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -114.313402,
+                        33.910866
+                    ],
+                    [
+                        -115.068788,
+                        34.382
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "A21",
+                "From Bus": 112,
+                "To Bus": 123,
+                "R": 0.012,
+                "X": 0.09699999999999999,
+                "B": 0.203,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.52,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 1.6,
+                "Length": 67.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -114.274657,
+                        34.35428
+                    ],
+                    [
+                        -115.068788,
+                        34.382
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "A22",
+                "From Bus": 113,
+                "To Bus": 123,
+                "R": 0.011000000000000001,
+                "X": 0.087,
+                "B": 0.182,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.49,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 1.5,
+                "Length": 60.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -114.274657,
+                        34.35428
+                    ],
+                    [
+                        -114.575774,
+                        35.148591
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "AB2",
+                "From Bus": 113,
+                "To Bus": 215,
+                "R": 0.01,
+                "X": 0.075,
+                "B": 0.158,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.47,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 1.3,
+                "Length": 52.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -114.819911,
+                        33.777086
+                    ],
+                    [
+                        -115.321058,
+                        33.661031
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "A23",
+                "From Bus": 114,
+                "To Bus": 116,
+                "R": 0.005,
+                "X": 0.059000000000000004,
+                "B": 0.08199999999999999,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.38,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.7,
+                "Length": 27.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -115.329508,
+                        33.506184
+                    ],
+                    [
+                        -115.321058,
+                        33.661031
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "A24",
+                "From Bus": 115,
+                "To Bus": 116,
+                "R": 0.002,
+                "X": 0.017,
+                "B": 0.036000000000000004,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.33,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.3,
+                "Length": 12.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -115.329508,
+                        33.506184
+                    ],
+                    [
+                        -116.070778,
+                        33.527121
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "A25-1",
+                "From Bus": 115,
+                "To Bus": 121,
+                "R": 0.006,
+                "X": 0.049,
+                "B": 0.10300000000000001,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.41,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.8,
+                "Length": 34.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -115.329508,
+                        33.506184
+                    ],
+                    [
+                        -116.070778,
+                        33.527121
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "A25-2",
+                "From Bus": 115,
+                "To Bus": 121,
+                "R": 0.006,
+                "X": 0.049,
+                "B": 0.10300000000000001,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.41,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.8,
+                "Length": 34.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -115.329508,
+                        33.506184
+                    ],
+                    [
+                        -114.656488,
+                        33.542965
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "A26",
+                "From Bus": 115,
+                "To Bus": 124,
+                "R": 0.006999999999999999,
+                "X": 0.052000000000000005,
+                "B": 0.109,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.41,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.9,
+                "Length": 36.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -115.321058,
+                        33.661031
+                    ],
+                    [
+                        -115.640809,
+                        33.575233
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "A27",
+                "From Bus": 116,
+                "To Bus": 117,
+                "R": 0.003,
+                "X": 0.026000000000000002,
+                "B": 0.055,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.35,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.4,
+                "Length": 18.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -115.321058,
+                        33.661031
+                    ],
+                    [
+                        -115.369131,
+                        33.869079
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "A28",
+                "From Bus": 116,
+                "To Bus": 119,
+                "R": 0.003,
+                "X": 0.023,
+                "B": 0.049,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.34,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.4,
+                "Length": 16.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -115.640809,
+                        33.575233
+                    ],
+                    [
+                        -115.799956,
+                        33.544531
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "A29",
+                "From Bus": 117,
+                "To Bus": 118,
+                "R": 0.002,
+                "X": 0.013999999999999999,
+                "B": 0.03,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.32,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.2,
+                "Length": 10.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -115.640809,
+                        33.575233
+                    ],
+                    [
+                        -116.324347,
+                        32.818864
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "A30",
+                "From Bus": 117,
+                "To Bus": 122,
+                "R": 0.013999999999999999,
+                "X": 0.105,
+                "B": 0.221,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.54,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 1.8,
+                "Length": 73.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -115.799956,
+                        33.544531
+                    ],
+                    [
+                        -116.070778,
+                        33.527121
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "A31-1",
+                "From Bus": 118,
+                "To Bus": 121,
+                "R": 0.003,
+                "X": 0.026000000000000002,
+                "B": 0.055,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.35,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.4,
+                "Length": 18.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -115.799956,
+                        33.544531
+                    ],
+                    [
+                        -116.070778,
+                        33.527121
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "A31-2",
+                "From Bus": 118,
+                "To Bus": 121,
+                "R": 0.003,
+                "X": 0.026000000000000002,
+                "B": 0.055,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.35,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.4,
+                "Length": 18.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -115.369131,
+                        33.869079
+                    ],
+                    [
+                        -115.26247,
+                        34.244579
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "A32-1",
+                "From Bus": 119,
+                "To Bus": 120,
+                "R": 0.005,
+                "X": 0.04,
+                "B": 0.083,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.38,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.7,
+                "Length": 27.5
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -115.369131,
+                        33.869079
+                    ],
+                    [
+                        -115.26247,
+                        34.244579
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "A32-2",
+                "From Bus": 119,
+                "To Bus": 120,
+                "R": 0.005,
+                "X": 0.04,
+                "B": 0.083,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.38,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.7,
+                "Length": 27.5
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -115.26247,
+                        34.244579
+                    ],
+                    [
+                        -115.068788,
+                        34.382
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "A33-1",
+                "From Bus": 120,
+                "To Bus": 123,
+                "R": 0.003,
+                "X": 0.022000000000000002,
+                "B": 0.046,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.34,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.4,
+                "Length": 15.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -115.26247,
+                        34.244579
+                    ],
+                    [
+                        -115.068788,
+                        34.382
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "A33-2",
+                "From Bus": 120,
+                "To Bus": 123,
+                "R": 0.003,
+                "X": 0.022000000000000002,
+                "B": 0.046,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.34,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.4,
+                "Length": 15.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -116.070778,
+                        33.527121
+                    ],
+                    [
+                        -116.324347,
+                        32.818864
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "A34",
+                "From Bus": 121,
+                "To Bus": 122,
+                "R": 0.009000000000000001,
+                "X": 0.068,
+                "B": 0.142,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.45,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 1.2,
+                "Length": 47.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -115.068788,
+                        34.382
+                    ],
+                    [
+                        -114.921164,
+                        35.087749
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "AB3",
+                "From Bus": 123,
+                "To Bus": 217,
+                "R": 0.01,
+                "X": 0.07400000000000001,
+                "B": 0.155,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.46,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 1.3,
+                "Length": 51.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -113.721496,
+                        36.255664
+                    ],
+                    [
+                        -113.745998,
+                        36.289963
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "B1",
+                "From Bus": 201,
+                "To Bus": 202,
+                "R": 0.003,
+                "X": 0.013999999999999999,
+                "B": 0.461,
+                "Cont Rating": 175,
+                "LTE Rating": 193,
+                "STE Rating": 200,
+                "Perm OutRate": 0.24,
+                "Duration": 16,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.0,
+                "Length": 3.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -113.721496,
+                        36.255664
+                    ],
+                    [
+                        -113.975934,
+                        35.354402
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "B2",
+                "From Bus": 201,
+                "To Bus": 203,
+                "R": 0.055,
+                "X": 0.21100000000000002,
+                "B": 0.057,
+                "Cont Rating": 175,
+                "LTE Rating": 208,
+                "STE Rating": 220,
+                "Perm OutRate": 0.51,
+                "Duration": 10,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 2.9,
+                "Length": 55.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -113.721496,
+                        36.255664
+                    ],
+                    [
+                        -113.983041,
+                        36.07923
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "B3",
+                "From Bus": 201,
+                "To Bus": 205,
+                "R": 0.022000000000000002,
+                "X": 0.085,
+                "B": 0.023,
+                "Cont Rating": 175,
+                "LTE Rating": 208,
+                "STE Rating": 220,
+                "Perm OutRate": 0.33,
+                "Duration": 10,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 1.2,
+                "Length": 22.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -113.745998,
+                        36.289963
+                    ],
+                    [
+                        -114.221868,
+                        36.190292
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "B4",
+                "From Bus": 202,
+                "To Bus": 204,
+                "R": 0.033,
+                "X": 0.127,
+                "B": 0.034,
+                "Cont Rating": 175,
+                "LTE Rating": 208,
+                "STE Rating": 220,
+                "Perm OutRate": 0.39,
+                "Duration": 10,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 1.7,
+                "Length": 33.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -113.745998,
+                        36.289963
+                    ],
+                    [
+                        -113.890347,
+                        35.787397
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "B5",
+                "From Bus": 202,
+                "To Bus": 206,
+                "R": 0.05,
+                "X": 0.192,
+                "B": 0.052000000000000005,
+                "Cont Rating": 175,
+                "LTE Rating": 208,
+                "STE Rating": 220,
+                "Perm OutRate": 0.48,
+                "Duration": 10,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 2.6,
+                "Length": 50.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -113.975934,
+                        35.354402
+                    ],
+                    [
+                        -114.150833,
+                        35.805107
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "B6",
+                "From Bus": 203,
+                "To Bus": 209,
+                "R": 0.031,
+                "X": 0.11900000000000001,
+                "B": 0.032,
+                "Cont Rating": 175,
+                "LTE Rating": 208,
+                "STE Rating": 220,
+                "Perm OutRate": 0.38,
+                "Duration": 10,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 1.6,
+                "Length": 31.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -113.975934,
+                        35.354402
+                    ],
+                    [
+                        -113.960253,
+                        35.356438
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "B7",
+                "From Bus": 203,
+                "To Bus": 224,
+                "R": 0.002,
+                "X": 0.084,
+                "B": 0.0,
+                "Cont Rating": 400,
+                "LTE Rating": 510,
+                "STE Rating": 600,
+                "Perm OutRate": 0.02,
+                "Duration": 768,
+                "Tr Ratio": 1.015,
+                "Tran OutRate": 0.0,
+                "Length": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -114.221868,
+                        36.190292
+                    ],
+                    [
+                        -114.150833,
+                        35.805107
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "B8",
+                "From Bus": 204,
+                "To Bus": 209,
+                "R": 0.027000000000000003,
+                "X": 0.10400000000000001,
+                "B": 0.027999999999999997,
+                "Cont Rating": 175,
+                "LTE Rating": 208,
+                "STE Rating": 220,
+                "Perm OutRate": 0.36,
+                "Duration": 10,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 1.4,
+                "Length": 27.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -113.983041,
+                        36.07923
+                    ],
+                    [
+                        -114.162881,
+                        35.787823
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "B9",
+                "From Bus": 205,
+                "To Bus": 210,
+                "R": 0.023,
+                "X": 0.08800000000000001,
+                "B": 0.024,
+                "Cont Rating": 175,
+                "LTE Rating": 208,
+                "STE Rating": 220,
+                "Perm OutRate": 0.34,
+                "Duration": 10,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 1.2,
+                "Length": 23.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -113.890347,
+                        35.787397
+                    ],
+                    [
+                        -114.162881,
+                        35.787823
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "B10",
+                "From Bus": 206,
+                "To Bus": 210,
+                "R": 0.013999999999999999,
+                "X": 0.061,
+                "B": 2.459,
+                "Cont Rating": 175,
+                "LTE Rating": 193,
+                "STE Rating": 200,
+                "Perm OutRate": 0.33,
+                "Duration": 35,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.0,
+                "Length": 16.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -113.082849,
+                        36.052467
+                    ],
+                    [
+                        -113.317701,
+                        35.933814
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "B11",
+                "From Bus": 207,
+                "To Bus": 208,
+                "R": 0.016,
+                "X": 0.061,
+                "B": 0.017,
+                "Cont Rating": 175,
+                "LTE Rating": 208,
+                "STE Rating": 220,
+                "Perm OutRate": 0.3,
+                "Duration": 10,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.8,
+                "Length": 16.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -113.317701,
+                        35.933814
+                    ],
+                    [
+                        -114.150833,
+                        35.805107
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "B12-1",
+                "From Bus": 208,
+                "To Bus": 209,
+                "R": 0.043,
+                "X": 0.165,
+                "B": 0.045,
+                "Cont Rating": 175,
+                "LTE Rating": 208,
+                "STE Rating": 220,
+                "Perm OutRate": 0.44,
+                "Duration": 10,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 2.3,
+                "Length": 43.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -113.317701,
+                        35.933814
+                    ],
+                    [
+                        -114.162881,
+                        35.787823
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "B13-2",
+                "From Bus": 208,
+                "To Bus": 210,
+                "R": 0.043,
+                "X": 0.165,
+                "B": 0.045,
+                "Cont Rating": 175,
+                "LTE Rating": 208,
+                "STE Rating": 220,
+                "Perm OutRate": 0.44,
+                "Duration": 10,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 2.3,
+                "Length": 43.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -114.150833,
+                        35.805107
+                    ],
+                    [
+                        -114.167552,
+                        35.801485
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "B14",
+                "From Bus": 209,
+                "To Bus": 211,
+                "R": 0.002,
+                "X": 0.084,
+                "B": 0.0,
+                "Cont Rating": 400,
+                "LTE Rating": 510,
+                "STE Rating": 600,
+                "Perm OutRate": 0.02,
+                "Duration": 768,
+                "Tr Ratio": 1.03,
+                "Tran OutRate": 0.0,
+                "Length": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -114.150833,
+                        35.805107
+                    ],
+                    [
+                        -114.146165,
+                        35.791445
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "B15",
+                "From Bus": 209,
+                "To Bus": 212,
+                "R": 0.002,
+                "X": 0.084,
+                "B": 0.0,
+                "Cont Rating": 400,
+                "LTE Rating": 510,
+                "STE Rating": 600,
+                "Perm OutRate": 0.02,
+                "Duration": 768,
+                "Tr Ratio": 1.03,
+                "Tran OutRate": 0.0,
+                "Length": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -114.162881,
+                        35.787823
+                    ],
+                    [
+                        -114.167552,
+                        35.801485
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "B16",
+                "From Bus": 210,
+                "To Bus": 211,
+                "R": 0.002,
+                "X": 0.084,
+                "B": 0.0,
+                "Cont Rating": 400,
+                "LTE Rating": 510,
+                "STE Rating": 600,
+                "Perm OutRate": 0.02,
+                "Duration": 768,
+                "Tr Ratio": 1.015,
+                "Tran OutRate": 0.0,
+                "Length": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -114.162881,
+                        35.787823
+                    ],
+                    [
+                        -114.146165,
+                        35.791445
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "B17",
+                "From Bus": 210,
+                "To Bus": 212,
+                "R": 0.002,
+                "X": 0.084,
+                "B": 0.0,
+                "Cont Rating": 400,
+                "LTE Rating": 510,
+                "STE Rating": 600,
+                "Perm OutRate": 0.02,
+                "Duration": 768,
+                "Tr Ratio": 1.015,
+                "Tran OutRate": 0.0,
+                "Length": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -114.167552,
+                        35.801485
+                    ],
+                    [
+                        -114.622896,
+                        36.146095
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "B18",
+                "From Bus": 211,
+                "To Bus": 213,
+                "R": 0.006,
+                "X": 0.048,
+                "B": 0.1,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.4,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.8,
+                "Length": 33.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -114.167552,
+                        35.801485
+                    ],
+                    [
+                        -114.492568,
+                        35.567611
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "B19",
+                "From Bus": 211,
+                "To Bus": 214,
+                "R": 0.005,
+                "X": 0.042,
+                "B": 0.08800000000000001,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.39,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.7,
+                "Length": 29.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -114.146165,
+                        35.791445
+                    ],
+                    [
+                        -114.622896,
+                        36.146095
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "B20",
+                "From Bus": 212,
+                "To Bus": 213,
+                "R": 0.006,
+                "X": 0.048,
+                "B": 0.1,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.4,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.8,
+                "Length": 33.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -114.146165,
+                        35.791445
+                    ],
+                    [
+                        -115.536446,
+                        35.82435
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "B21",
+                "From Bus": 212,
+                "To Bus": 223,
+                "R": 0.012,
+                "X": 0.09699999999999999,
+                "B": 0.203,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.52,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 1.6,
+                "Length": 67.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -114.622896,
+                        36.146095
+                    ],
+                    [
+                        -115.536446,
+                        35.82435
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "B22",
+                "From Bus": 213,
+                "To Bus": 223,
+                "R": 0.011000000000000001,
+                "X": 0.087,
+                "B": 0.182,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.49,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 1.5,
+                "Length": 60.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -114.492568,
+                        35.567611
+                    ],
+                    [
+                        -114.730763,
+                        35.26149
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "B23",
+                "From Bus": 214,
+                "To Bus": 216,
+                "R": 0.005,
+                "X": 0.059000000000000004,
+                "B": 0.08199999999999999,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.38,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.7,
+                "Length": 27.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -114.575774,
+                        35.148591
+                    ],
+                    [
+                        -114.730763,
+                        35.26149
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "B24",
+                "From Bus": 215,
+                "To Bus": 216,
+                "R": 0.002,
+                "X": 0.017,
+                "B": 0.036000000000000004,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.33,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.3,
+                "Length": 12.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -114.575774,
+                        35.148591
+                    ],
+                    [
+                        -115.197942,
+                        35.316322
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "B25-1",
+                "From Bus": 215,
+                "To Bus": 221,
+                "R": 0.006,
+                "X": 0.049,
+                "B": 0.10300000000000001,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.41,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.8,
+                "Length": 34.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -114.575774,
+                        35.148591
+                    ],
+                    [
+                        -115.197942,
+                        35.316322
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "B25-2",
+                "From Bus": 215,
+                "To Bus": 221,
+                "R": 0.006,
+                "X": 0.049,
+                "B": 0.10300000000000001,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.41,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.8,
+                "Length": 34.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -114.575774,
+                        35.148591
+                    ],
+                    [
+                        -113.960253,
+                        35.356438
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "B26",
+                "From Bus": 215,
+                "To Bus": 224,
+                "R": 0.006999999999999999,
+                "X": 0.052000000000000005,
+                "B": 0.109,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.41,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.9,
+                "Length": 36.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -114.730763,
+                        35.26149
+                    ],
+                    [
+                        -114.921164,
+                        35.087749
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "B27",
+                "From Bus": 216,
+                "To Bus": 217,
+                "R": 0.003,
+                "X": 0.026000000000000002,
+                "B": 0.055,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.35,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.4,
+                "Length": 18.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -114.730763,
+                        35.26149
+                    ],
+                    [
+                        -114.979182,
+                        35.419217
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "B28",
+                "From Bus": 216,
+                "To Bus": 219,
+                "R": 0.003,
+                "X": 0.023,
+                "B": 0.049,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.34,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.4,
+                "Length": 16.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -114.921164,
+                        35.087749
+                    ],
+                    [
+                        -115.077882,
+                        35.114907
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "B29",
+                "From Bus": 217,
+                "To Bus": 218,
+                "R": 0.002,
+                "X": 0.013999999999999999,
+                "B": 0.03,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.32,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.2,
+                "Length": 10.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -114.921164,
+                        35.087749
+                    ],
+                    [
+                        -115.29021,
+                        36.330981
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "B30",
+                "From Bus": 217,
+                "To Bus": 222,
+                "R": 0.013999999999999999,
+                "X": 0.105,
+                "B": 0.221,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.54,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 1.8,
+                "Length": 73.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -115.077882,
+                        35.114907
+                    ],
+                    [
+                        -115.197942,
+                        35.316322
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "B31-1",
+                "From Bus": 218,
+                "To Bus": 221,
+                "R": 0.003,
+                "X": 0.026000000000000002,
+                "B": 0.055,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.35,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.4,
+                "Length": 18.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -115.077882,
+                        35.114907
+                    ],
+                    [
+                        -115.197942,
+                        35.316322
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "B31-2",
+                "From Bus": 218,
+                "To Bus": 221,
+                "R": 0.003,
+                "X": 0.026000000000000002,
+                "B": 0.055,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.35,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.4,
+                "Length": 18.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -114.979182,
+                        35.419217
+                    ],
+                    [
+                        -115.446587,
+                        35.646696
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "B32-1",
+                "From Bus": 219,
+                "To Bus": 220,
+                "R": 0.005,
+                "X": 0.04,
+                "B": 0.083,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.38,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.7,
+                "Length": 27.5
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -114.979182,
+                        35.419217
+                    ],
+                    [
+                        -115.446587,
+                        35.646696
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "B32-2",
+                "From Bus": 219,
+                "To Bus": 220,
+                "R": 0.005,
+                "X": 0.04,
+                "B": 0.083,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.38,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.7,
+                "Length": 27.5
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -115.446587,
+                        35.646696
+                    ],
+                    [
+                        -115.536446,
+                        35.82435
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "B33-1",
+                "From Bus": 220,
+                "To Bus": 223,
+                "R": 0.003,
+                "X": 0.022000000000000002,
+                "B": 0.046,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.34,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.4,
+                "Length": 15.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -115.446587,
+                        35.646696
+                    ],
+                    [
+                        -115.536446,
+                        35.82435
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "B33-2",
+                "From Bus": 220,
+                "To Bus": 223,
+                "R": 0.003,
+                "X": 0.022000000000000002,
+                "B": 0.046,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.34,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.4,
+                "Length": 15.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -115.197942,
+                        35.316322
+                    ],
+                    [
+                        -115.29021,
+                        36.330981
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "B34",
+                "From Bus": 221,
+                "To Bus": 222,
+                "R": 0.009000000000000001,
+                "X": 0.068,
+                "B": 0.142,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.45,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 1.2,
+                "Length": 47.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.821765,
+                        35.047582
+                    ],
+                    [
+                        -118.86486,
+                        35.029937
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "C1",
+                "From Bus": 301,
+                "To Bus": 302,
+                "R": 0.003,
+                "X": 0.013999999999999999,
+                "B": 0.461,
+                "Cont Rating": 175,
+                "LTE Rating": 193,
+                "STE Rating": 200,
+                "Perm OutRate": 0.24,
+                "Duration": 16,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.0,
+                "Length": 3.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.821765,
+                        35.047582
+                    ],
+                    [
+                        -118.04355,
+                        35.217543
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "C2",
+                "From Bus": 301,
+                "To Bus": 303,
+                "R": 0.055,
+                "X": 0.21100000000000002,
+                "B": 0.057,
+                "Cont Rating": 175,
+                "LTE Rating": 208,
+                "STE Rating": 220,
+                "Perm OutRate": 0.51,
+                "Duration": 10,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 2.9,
+                "Length": 55.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.821765,
+                        35.047582
+                    ],
+                    [
+                        -118.510487,
+                        34.873885
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "C3",
+                "From Bus": 301,
+                "To Bus": 305,
+                "R": 0.022000000000000002,
+                "X": 0.085,
+                "B": 0.023,
+                "Cont Rating": 175,
+                "LTE Rating": 208,
+                "STE Rating": 220,
+                "Perm OutRate": 0.33,
+                "Duration": 10,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 1.2,
+                "Length": 22.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.86486,
+                        35.029937
+                    ],
+                    [
+                        -118.563585,
+                        34.632091
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "C4",
+                "From Bus": 302,
+                "To Bus": 304,
+                "R": 0.033,
+                "X": 0.127,
+                "B": 0.034,
+                "Cont Rating": 175,
+                "LTE Rating": 208,
+                "STE Rating": 220,
+                "Perm OutRate": 0.39,
+                "Duration": 10,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 1.7,
+                "Length": 33.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.86486,
+                        35.029937
+                    ],
+                    [
+                        -118.2762,
+                        34.887168
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "C5",
+                "From Bus": 302,
+                "To Bus": 306,
+                "R": 0.05,
+                "X": 0.192,
+                "B": 0.052000000000000005,
+                "Cont Rating": 175,
+                "LTE Rating": 208,
+                "STE Rating": 220,
+                "Perm OutRate": 0.48,
+                "Duration": 10,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 2.6,
+                "Length": 50.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.04355,
+                        35.217543
+                    ],
+                    [
+                        -118.127342,
+                        34.735758
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "C6",
+                "From Bus": 303,
+                "To Bus": 309,
+                "R": 0.031,
+                "X": 0.11900000000000001,
+                "B": 0.032,
+                "Cont Rating": 175,
+                "LTE Rating": 208,
+                "STE Rating": 220,
+                "Perm OutRate": 0.38,
+                "Duration": 10,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 1.6,
+                "Length": 31.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.04355,
+                        35.217543
+                    ],
+                    [
+                        -118.034817,
+                        35.206582
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "C7",
+                "From Bus": 303,
+                "To Bus": 324,
+                "R": 0.002,
+                "X": 0.084,
+                "B": 0.0,
+                "Cont Rating": 400,
+                "LTE Rating": 510,
+                "STE Rating": 600,
+                "Perm OutRate": 0.02,
+                "Duration": 768,
+                "Tr Ratio": 1.015,
+                "Tran OutRate": 0.0,
+                "Length": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.563585,
+                        34.632091
+                    ],
+                    [
+                        -118.127342,
+                        34.735758
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "C8",
+                "From Bus": 304,
+                "To Bus": 309,
+                "R": 0.027000000000000003,
+                "X": 0.10400000000000001,
+                "B": 0.027999999999999997,
+                "Cont Rating": 175,
+                "LTE Rating": 208,
+                "STE Rating": 220,
+                "Perm OutRate": 0.36,
+                "Duration": 10,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 1.4,
+                "Length": 27.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.510487,
+                        34.873885
+                    ],
+                    [
+                        -118.104525,
+                        34.729316
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "C9",
+                "From Bus": 305,
+                "To Bus": 310,
+                "R": 0.023,
+                "X": 0.08800000000000001,
+                "B": 0.024,
+                "Cont Rating": 175,
+                "LTE Rating": 208,
+                "STE Rating": 220,
+                "Perm OutRate": 0.34,
+                "Duration": 10,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 1.2,
+                "Length": 23.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.2762,
+                        34.887168
+                    ],
+                    [
+                        -118.104525,
+                        34.729316
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "C10",
+                "From Bus": 306,
+                "To Bus": 310,
+                "R": 0.013999999999999999,
+                "X": 0.061,
+                "B": 2.459,
+                "Cont Rating": 175,
+                "LTE Rating": 193,
+                "STE Rating": 200,
+                "Perm OutRate": 0.33,
+                "Duration": 35,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.0,
+                "Length": 16.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.878178,
+                        34.101266
+                    ],
+                    [
+                        -118.654258,
+                        34.224718
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "C11",
+                "From Bus": 307,
+                "To Bus": 308,
+                "R": 0.016,
+                "X": 0.061,
+                "B": 0.017,
+                "Cont Rating": 175,
+                "LTE Rating": 208,
+                "STE Rating": 220,
+                "Perm OutRate": 0.3,
+                "Duration": 10,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.8,
+                "Length": 16.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.654258,
+                        34.224718
+                    ],
+                    [
+                        -118.127342,
+                        34.735758
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "C12-1",
+                "From Bus": 308,
+                "To Bus": 309,
+                "R": 0.043,
+                "X": 0.165,
+                "B": 0.045,
+                "Cont Rating": 175,
+                "LTE Rating": 208,
+                "STE Rating": 220,
+                "Perm OutRate": 0.44,
+                "Duration": 10,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 2.3,
+                "Length": 43.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.654258,
+                        34.224718
+                    ],
+                    [
+                        -118.104525,
+                        34.729316
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "C13-2",
+                "From Bus": 308,
+                "To Bus": 310,
+                "R": 0.043,
+                "X": 0.165,
+                "B": 0.045,
+                "Cont Rating": 175,
+                "LTE Rating": 208,
+                "STE Rating": 220,
+                "Perm OutRate": 0.44,
+                "Duration": 10,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 2.3,
+                "Length": 43.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.127342,
+                        34.735758
+                    ],
+                    [
+                        -118.111933,
+                        34.742094
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "C14",
+                "From Bus": 309,
+                "To Bus": 311,
+                "R": 0.002,
+                "X": 0.084,
+                "B": 0.0,
+                "Cont Rating": 400,
+                "LTE Rating": 510,
+                "STE Rating": 600,
+                "Perm OutRate": 0.02,
+                "Duration": 768,
+                "Tr Ratio": 1.03,
+                "Tran OutRate": 0.0,
+                "Length": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.127342,
+                        34.735758
+                    ],
+                    [
+                        -118.119887,
+                        34.722963
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "C15",
+                "From Bus": 309,
+                "To Bus": 312,
+                "R": 0.002,
+                "X": 0.084,
+                "B": 0.0,
+                "Cont Rating": 400,
+                "LTE Rating": 510,
+                "STE Rating": 600,
+                "Perm OutRate": 0.02,
+                "Duration": 768,
+                "Tr Ratio": 1.03,
+                "Tran OutRate": 0.0,
+                "Length": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.104525,
+                        34.729316
+                    ],
+                    [
+                        -118.111933,
+                        34.742094
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "C16",
+                "From Bus": 310,
+                "To Bus": 311,
+                "R": 0.002,
+                "X": 0.084,
+                "B": 0.0,
+                "Cont Rating": 400,
+                "LTE Rating": 510,
+                "STE Rating": 600,
+                "Perm OutRate": 0.02,
+                "Duration": 768,
+                "Tr Ratio": 1.015,
+                "Tran OutRate": 0.0,
+                "Length": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.104525,
+                        34.729316
+                    ],
+                    [
+                        -118.119887,
+                        34.722963
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "C17",
+                "From Bus": 310,
+                "To Bus": 312,
+                "R": 0.002,
+                "X": 0.084,
+                "B": 0.0,
+                "Cont Rating": 400,
+                "LTE Rating": 510,
+                "STE Rating": 600,
+                "Perm OutRate": 0.02,
+                "Duration": 768,
+                "Tr Ratio": 1.015,
+                "Tran OutRate": 0.0,
+                "Length": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.111933,
+                        34.742094
+                    ],
+                    [
+                        -118.018855,
+                        34.265268
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "C18",
+                "From Bus": 311,
+                "To Bus": 313,
+                "R": 0.006,
+                "X": 0.048,
+                "B": 0.1,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.4,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.8,
+                "Length": 33.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.111933,
+                        34.742094
+                    ],
+                    [
+                        -117.684879,
+                        34.944964
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "C19",
+                "From Bus": 311,
+                "To Bus": 314,
+                "R": 0.005,
+                "X": 0.042,
+                "B": 0.08800000000000001,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.39,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.7,
+                "Length": 29.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.119887,
+                        34.722963
+                    ],
+                    [
+                        -118.018855,
+                        34.265268
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "C20",
+                "From Bus": 312,
+                "To Bus": 313,
+                "R": 0.006,
+                "X": 0.048,
+                "B": 0.1,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.4,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.8,
+                "Length": 33.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.119887,
+                        34.722963
+                    ],
+                    [
+                        -117.113221,
+                        34.253003
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "C21",
+                "From Bus": 312,
+                "To Bus": 323,
+                "R": 0.012,
+                "X": 0.09699999999999999,
+                "B": 0.203,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.52,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 1.6,
+                "Length": 67.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.018855,
+                        34.265268
+                    ],
+                    [
+                        -117.113221,
+                        34.253003
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "C22",
+                "From Bus": 313,
+                "To Bus": 323,
+                "R": 0.011000000000000001,
+                "X": 0.087,
+                "B": 0.182,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.49,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 1.5,
+                "Length": 60.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.684879,
+                        34.944964
+                    ],
+                    [
+                        -117.251589,
+                        35.138367
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "C23",
+                "From Bus": 314,
+                "To Bus": 316,
+                "R": 0.005,
+                "X": 0.059000000000000004,
+                "B": 0.08199999999999999,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.38,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.7,
+                "Length": 27.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.386434,
+                        35.26597
+                    ],
+                    [
+                        -117.251589,
+                        35.138367
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "C24",
+                "From Bus": 315,
+                "To Bus": 316,
+                "R": 0.002,
+                "X": 0.017,
+                "B": 0.036000000000000004,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.33,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.3,
+                "Length": 12.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.386434,
+                        35.26597
+                    ],
+                    [
+                        -117.115363,
+                        35.745344
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "C25-1",
+                "From Bus": 315,
+                "To Bus": 321,
+                "R": 0.006,
+                "X": 0.049,
+                "B": 0.10300000000000001,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.41,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.8,
+                "Length": 34.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.386434,
+                        35.26597
+                    ],
+                    [
+                        -117.115363,
+                        35.745344
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "C25-2",
+                "From Bus": 315,
+                "To Bus": 321,
+                "R": 0.006,
+                "X": 0.049,
+                "B": 0.10300000000000001,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.41,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.8,
+                "Length": 34.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.386434,
+                        35.26597
+                    ],
+                    [
+                        -118.034817,
+                        35.206582
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "C26",
+                "From Bus": 315,
+                "To Bus": 324,
+                "R": 0.006999999999999999,
+                "X": 0.052000000000000005,
+                "B": 0.109,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.41,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.9,
+                "Length": 36.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.251589,
+                        35.138367
+                    ],
+                    [
+                        -117.055829,
+                        35.378433
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "C27",
+                "From Bus": 316,
+                "To Bus": 317,
+                "R": 0.003,
+                "X": 0.026000000000000002,
+                "B": 0.055,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.35,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.4,
+                "Length": 18.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.251589,
+                        35.138367
+                    ],
+                    [
+                        -117.12442,
+                        34.917631
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "C28",
+                "From Bus": 316,
+                "To Bus": 319,
+                "R": 0.003,
+                "X": 0.023,
+                "B": 0.049,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.34,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.4,
+                "Length": 16.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.055829,
+                        35.378433
+                    ],
+                    [
+                        -116.976571,
+                        35.505813
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "C29",
+                "From Bus": 317,
+                "To Bus": 318,
+                "R": 0.002,
+                "X": 0.013999999999999999,
+                "B": 0.03,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.32,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.2,
+                "Length": 10.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.055829,
+                        35.378433
+                    ],
+                    [
+                        -117.485272,
+                        36.438958
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "C30",
+                "From Bus": 317,
+                "To Bus": 322,
+                "R": 0.013999999999999999,
+                "X": 0.105,
+                "B": 0.221,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.54,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 1.8,
+                "Length": 73.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -116.976571,
+                        35.505813
+                    ],
+                    [
+                        -117.115363,
+                        35.745344
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "C31-1",
+                "From Bus": 318,
+                "To Bus": 321,
+                "R": 0.003,
+                "X": 0.026000000000000002,
+                "B": 0.055,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.35,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.4,
+                "Length": 18.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -116.976571,
+                        35.505813
+                    ],
+                    [
+                        -117.115363,
+                        35.745344
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "C31-2",
+                "From Bus": 318,
+                "To Bus": 321,
+                "R": 0.003,
+                "X": 0.026000000000000002,
+                "B": 0.055,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.35,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.4,
+                "Length": 18.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.12442,
+                        34.917631
+                    ],
+                    [
+                        -117.063508,
+                        34.462466
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "C32-1",
+                "From Bus": 319,
+                "To Bus": 320,
+                "R": 0.005,
+                "X": 0.04,
+                "B": 0.083,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.38,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.7,
+                "Length": 27.5
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.12442,
+                        34.917631
+                    ],
+                    [
+                        -117.063508,
+                        34.462466
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "C32-2",
+                "From Bus": 319,
+                "To Bus": 320,
+                "R": 0.005,
+                "X": 0.04,
+                "B": 0.083,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.38,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.7,
+                "Length": 27.5
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.063508,
+                        34.462466
+                    ],
+                    [
+                        -117.113221,
+                        34.253003
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "C33-1",
+                "From Bus": 320,
+                "To Bus": 323,
+                "R": 0.003,
+                "X": 0.022000000000000002,
+                "B": 0.046,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.34,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.4,
+                "Length": 15.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.063508,
+                        34.462466
+                    ],
+                    [
+                        -117.113221,
+                        34.253003
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "C33-2",
+                "From Bus": 320,
+                "To Bus": 323,
+                "R": 0.003,
+                "X": 0.022000000000000002,
+                "B": 0.046,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.34,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 0.4,
+                "Length": 15.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.115363,
+                        35.745344
+                    ],
+                    [
+                        -117.485272,
+                        36.438958
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "C34",
+                "From Bus": 321,
+                "To Bus": 322,
+                "R": 0.009000000000000001,
+                "X": 0.068,
+                "B": 0.142,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.45,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 1.2,
+                "Length": 47.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.128977,
+                        34.251891
+                    ],
+                    [
+                        -116.070778,
+                        33.527121
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "CA-1",
+                "From Bus": 325,
+                "To Bus": 121,
+                "R": 0.012,
+                "X": 0.09699999999999999,
+                "B": 0.203,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.52,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 1.6,
+                "Length": 67.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -116.976571,
+                        35.505813
+                    ],
+                    [
+                        -115.536446,
+                        35.82435
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "CB-1",
+                "From Bus": 318,
+                "To Bus": 223,
+                "R": 0.013000000000000001,
+                "X": 0.10400000000000001,
+                "B": 0.218,
+                "Cont Rating": 500,
+                "LTE Rating": 600,
+                "STE Rating": 625,
+                "Perm OutRate": 0.53,
+                "Duration": 11,
+                "Tr Ratio": 0.0,
+                "Tran OutRate": 1.8,
+                "Length": 72.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.113221,
+                        34.253003
+                    ],
+                    [
+                        -117.128977,
+                        34.251891
+                    ]
+                ]
+            },
+            "properties": {
+                "UID": "C35",
+                "From Bus": 323,
+                "To Bus": 325,
+                "R": 0.0,
+                "X": 0.009000000000000001,
+                "B": 0.0,
+                "Cont Rating": 722,
+                "LTE Rating": 893,
+                "STE Rating": 893,
+                "Perm OutRate": 0.02,
+                "Duration": 768,
+                "Tr Ratio": 1.0,
+                "Tran OutRate": 0.0,
+                "Length": 0.0
+            }
+        }
+    ]
+}
