@@ -36,7 +36,7 @@ class ACTree():
         LineList (list of int) All lines in the electric grid
     """
     def __init__(self, NumStages, BFs, seed, acstream, FailProb,
-                 StageDurations, Repairer, LineList):
+                 StageDurations, Repairer, LineList, GenList, GeneratorScenarios=None, first_time=0):
         self.NumStages = NumStages
         self.BFs = BFs
         self.seed = seed
@@ -44,6 +44,13 @@ class ACTree():
         self.StageDurations = StageDurations
         self.Repairer = Repairer
         self.LineList = LineList
+
+        """
+        For generator scenarios
+        """
+        self.GenList = GenList
+        self.GeneratorScenarios = GeneratorScenarios
+        self.first_time = first_time
 
         self.numscens = 1
         for s in range(self.NumStages-1):
@@ -108,34 +115,24 @@ class TreeNode():
         self.Name = Name
         self.Parent = Parent
         self.ScenarioList = ScenarioList
+        self.GeneratorsOff = []
+        self.GeneratorsOn = copy.copy(TreeInfo.GenList)
         if Parent is None:
             # Root node
             self.stage = 1
             self.FailedLines = []
             self.LinesUp = copy.copy(TreeInfo.LineList)
+
+            #Will need initialization with actuals
         else:
             self.stage = Parent.stage+1
             self.FailedLines = copy.copy(Parent.FailedLines)
             self.LinesUp = copy.copy(Parent.LinesUp)
-            # bring lines up? (mo is minutes out)
-            removals = list()
-            for ell in range(len(self.FailedLines)):
-                line, mo = self.FailedLines[ell]
-                if TreeInfo.Repairer(mo):
-                    removals.append((line, mo))
-                    self.LinesUp.append(line)
-                else:
-                    mo += TreeInfo.StageDurations[stage-1]
-                    self.FailedLines[ell] = (line, mo)
-            for r in removals:
-                self.FailedLines.remove(r)
+            self.repair_or_remove_lines(TreeInfo, acstream)
+            # print("List of scenarios", ScenarioList)
+            if len(ScenarioList) == 1: #GeneratorScenario
+                self.shutoff_generators(TreeInfo, ScenarioList[0])
 
-            # bring lines down?
-            for line in self.LinesUp:
-                if acstream.rand() < TreeInfo.FailProb:
-                    self.LinesUp.remove(line)
-                    self.FailedLines.append\
-                        ((line, TreeInfo.StageDurations[self.stage-1]))
         if self.stage <= TreeInfo.NumStages:
             # spawn children
             self.kids = []
@@ -157,6 +154,35 @@ class TreeNode():
                     prevbf = TreeInfo.BFs[self.stage-2]
                     self.kids.append(TreeNode(self, TreeInfo, scenlist,
                                               newname, 1/prevbf, acstream))
+
+    def repair_or_remove_lines(self, TreeInfo, acstream):
+        # bring lines up? (mo is minutes out)
+        removals = list()
+        for ell in range(len(self.FailedLines)):
+            line, mo = self.FailedLines[ell]
+            if TreeInfo.Repairer(mo):
+                removals.append((line, mo))
+                self.LinesUp.append(line)
+            else:
+                mo += TreeInfo.StageDurations[self.stage - 1]
+                self.FailedLines[ell] = (line, mo)
+        for r in removals:
+            self.FailedLines.remove(r)
+
+        # bring lines down?
+        for line in self.LinesUp:
+            if acstream.rand() < TreeInfo.FailProb:
+                self.LinesUp.remove(line)
+                self.FailedLines.append \
+                    ((line, TreeInfo.StageDurations[self.stage - 1]))
+        return True
+
+    def shutoff_generators(self, TreeInfo, n_scenario):
+        for wind_t in TreeInfo.GeneratorScenarios[n_scenario-1]:
+            if wind_t["status"][TreeInfo.first_time + self.stage] == False:
+                self.GeneratorsOff.append(wind_t["GEN UID"])
+                self.GeneratorsOn.remove(wind_t["GEN UID"])
+        return True
                     
     def pprint(self):
         print("Node Name={}, Stage={}".format(self.Name, self.stage))

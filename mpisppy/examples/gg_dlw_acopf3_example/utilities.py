@@ -132,11 +132,15 @@ def pysp2_callback(scenario_name, node_names=None, cb_data=None, md_dict=None, r
                                            scenario_name = scenario_name)
     """
 
-    def lines_up_and_down(stage_md_dict, enode):
+    def alteration_on_scenario(stage_md_dict, enode): #TODO one for windpower gen
         # local routine to configure the lines in stage_md_dict for the scenario
         LinesDown = []
         for f in enode.FailedLines:
             LinesDown.append(f[0])
+        WindTurbinesDown =[]
+        for g in enode.GeneratorsOff:
+            WindTurbinesDown.append(g)
+
         for this_branch in stage_md_dict.elements("branch"):
             if this_branch[0] in enode.LinesUp:
                 this_branch[1]["in_service"] = True
@@ -147,6 +151,9 @@ def pysp2_callback(scenario_name, node_names=None, cb_data=None, md_dict=None, r
                 print("enode.FailedLines=", enode.FailedLines)
                 raise RuntimeError("Branch (line) {} neither up nor down in scenario {}". \
                                    format(this_branch[0], scenario_name))
+        for this_gen in stage_md_dict.elements("generator"):
+            if this_gen[0] in WindTurbinesDown:
+                this_gen[1]["in_service"] = False
 
     # pull the number off the end of the scenario name
     scen_num = sputils.extract_num(scenario_name)
@@ -166,6 +173,7 @@ def pysp2_callback(scenario_name, node_names=None, cb_data=None, md_dict=None, r
     first_stage_md_dict = copy.deepcopy(md_dict)
     saved_md_dict = copy.deepcopy(md_dict)
     first_stage_md_dict = from_timeseries_to_values(first_stage_md_dict, first_time)
+    ## Discuss with David if uncertainty first stage ?
 
     # the following creates the first stage model
     full_scenario_model.stage_models[1], model_dict = acopf_model(first_stage_md_dict, include_feasibility_slack=True)
@@ -188,7 +196,7 @@ def pysp2_callback(scenario_name, node_names=None, cb_data=None, md_dict=None, r
         stage_md_dict = copy.deepcopy(saved_md_dict)
         stage_md_dict = from_timeseries_to_values(stage_md_dict, first_time+stage-1)
         print ("debug: processing node {}".format(enodes[stage-1].Name))
-        lines_up_and_down(stage_md_dict, enodes[stage - 1])
+        alteration_on_scenario(stage_md_dict, enodes[stage-1])
 
         full_scenario_model.stage_models[stage], model_dict = acopf_model(stage_md_dict, include_feasibility_slack=True)
         full_scenario_model.stage_models[stage] = change_coramin_objective(full_scenario_model.stage_models[stage])
@@ -225,7 +233,7 @@ def pysp2_callback(scenario_name, node_names=None, cb_data=None, md_dict=None, r
     parent_name = None
     for sm1, enode in enumerate(etree.Nodes_for_Scenario(scen_num)):
         stage = sm1 + 1
-        if stage < etree.NumStages:
+        if stage < etree.NumStages: #TODO
             node_list.append(scenario_tree.ScenarioNode(
                 name=enode.Name,
                 cond_prob=enode.CondProb,

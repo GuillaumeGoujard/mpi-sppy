@@ -15,18 +15,31 @@ def windturbine_shutoff(temperature, min_temp=0):
         return 0
 
 
-def simulate_scenarios():
-    gmrf = GMRF(number_of_days_fit=10, filter=temp_median())
+def simulate_scenarios(n):
+    gmrf = GMRF(number_of_days_fit=1, filter=temp_median())
 
     start_time = to_minnesota_time(datetime.datetime(2019, 12, 25, 0, 0))
-    end_time = to_minnesota_time(datetime.datetime(2019, 12, 26, 0, 0))
-    T_scenarios = gmrf.estimate_and_simulate(start_time, end_time, 6, estimate=True)
+    end_time = to_minnesota_time(datetime.datetime(2019, 12, 25, 12, 0))
+    T_scenarios = gmrf.estimate_and_simulate(start_time, end_time, n_scenarios=n, estimate=True)
     return T_scenarios
 
 
 # z = T_scenarios[0,0,:]
 
-def update_status_one_s_one_t(z):
+def create_wind_gens_list():
+    wind_gens = []
+    loc_wind_gens = []
+    for i in range(len(RTS_MISOgrid.gens)):
+        if RTS_MISOgrid.gens[i]["Category"] == "Wind":
+            wind_gens.append(RTS_MISOgrid.gens[i])
+            wind_gens[-1]["temperature"] = []
+            wind_gens[-1]["status"] = []
+            loc_wind_gens.append(RTS_MISOgrid.gens[i]["location"])
+    loc_wind_gens = np.array(loc_wind_gens)
+    return wind_gens, loc_wind_gens
+
+
+def update_status_one_s_one_t(z, wind_gens, loc_wind_gens):
     np.random.seed(89239413)
 
     N = 25
@@ -39,21 +52,24 @@ def update_status_one_s_one_t(z):
     OK = OrdinaryKriging(
         lon, lat, z, variogram_model='linear', verbose=True, enable_plotting=False)
 
-
     # Execute on grid:
     z2, ss2 = OK.execute("grid", grid_lon, grid_lat)
-
-    wind_gens = []
-    loc_wind_gens = []
-    for i in range(len(RTS_MISOgrid.gens)):
-        if RTS_MISOgrid.gens[i]["Category"] == "Wind":
-            wind_gens.append(RTS_MISOgrid.gens[i])
-            loc_wind_gens.append(RTS_MISOgrid.gens[i]["location"])
 
     loc_wind_gens = np.array(loc_wind_gens)
     t_gen, ss2 = OK.execute("points", loc_wind_gens[:,0], loc_wind_gens[:,1])
     for i in range(len(t_gen)):
-        wind_gens[i]["temperature"] = t_gen[i]
-        wind_gens[i]["status"] = windturbine_shutoff(t_gen[i])
+        wind_gens[i]["temperature"].append(t_gen[i])
+        wind_gens[i]["status"].append(windturbine_shutoff(t_gen[i]))
 
     return wind_gens
+
+
+def getwindturbineScenarios(n):
+    T_scenarios = simulate_scenarios(n)
+    wind_gens, loc_wind_gens = create_wind_gens_list()
+    wind_t_scenarios = []
+    for i in range(T_scenarios.shape[0]):
+        for t in range(T_scenarios.shape[1]):
+            wind_gens = update_status_one_s_one_t(T_scenarios[i][t], wind_gens, loc_wind_gens)
+        wind_t_scenarios.append(wind_gens)
+    return wind_t_scenarios

@@ -8,7 +8,7 @@ from egret.parsers.matpower_parser import create_ModelData
 import mpisppy.scenario_tree as scenario_tree
 import mpisppy.utils.sputils as sputils
 import mpisppy.opt.ph
-import mpisppy.examples.acopf3.ACtree as etree
+import mpisppy.examples.gg_dlw_acopf3_example.ACtree_wp as etree
 import mpisppy.opt.aph
 import mpisppy.examples.acopf3.rho_setter as rho_setter
 
@@ -22,6 +22,7 @@ import datetime as dt
 import mpi4py.MPI as mpi
 from mpisppy.examples.gg_dlw_acopf3_example import utilities as util
 from mpisppy.examples.gg_dlw_acopf3_example import rtsparser
+from mpisppy.examples.gg_dlw_acopf3_example import scenario_creation_windpower
 
 import pyomo.environ as pyo
 
@@ -39,7 +40,7 @@ test_cases_path = {"IEEE": egretrootpath+"/thirdparty/pglib-opf-master/pglib_opf
 class threeStagesDispatch:
 
     def __init__(self, test_case="RTS-GMLC", relaxation=False, solvername="gurobi", verbose=False, a_line_fails_prob=0.2,
-                 acstream=np.random.RandomState()):
+                 acstream=np.random.RandomState(), n_scenarios=6, generator_scenario=True, line_failure_off=True):
         if relaxation is False and solvername is "gurobi":
             print("solver must be ipopt")
             solvername = "ipopt"
@@ -47,6 +48,7 @@ class threeStagesDispatch:
         self.solver = pyo.SolverFactory(solvername)
         self.seed = 1234
         self.branching_factors = [2, 3]
+        self.branching_factors = [n_scenarios, 1]
         self.a_line_fails_prob = a_line_fails_prob
         self.repair_fct = util.FixFast
         self.number_of_stages = 3
@@ -54,6 +56,10 @@ class threeStagesDispatch:
         self.verbose = verbose
         self.relaxation = relaxation
         self.acstream = acstream
+        self.first_time = 0
+        self.line_failure_off = line_failure_off
+        self.generator_scenario = generator_scenario
+        self.generatorscenarios = None
 
         self.cb_data = dict()
         self.md_dict = None
@@ -91,10 +97,13 @@ class threeStagesDispatch:
             print("GENERATOR SET=", self.md_dict.attributes("generator"))
             print("end data dump")
 
-        lines = list()
-        for j, this_branch in enumerate(self.md_dict.elements("branch")):
-            lines.append(str(j + 1))
+        # lines = list()
+        # for j, this_branch in enumerate(self.md_dict.elements("branch")):
+        #     lines.append(str(j + 1))
             # lines.append(this_branch[0])
+        if self.line_failure_off:
+            self.a_line_fails_prob = 0 #0 proba of falling the rest is generarion
+        self.generatorscenarios = scenario_creation_windpower.getwindturbineScenarios(self.branching_factors[0]) if self.generator_scenario else None
 
         self.cb_data["etree"] = etree.ACTree(self.number_of_stages,
                                         self.branching_factors,
@@ -103,7 +112,9 @@ class threeStagesDispatch:
                                         self.a_line_fails_prob,
                                         self.stage_duration_minutes,
                                         self.repair_fct,
-                                        list(self.md_dict.data["elements"]["branch"].keys()))
+                                        list(self.md_dict.data["elements"]["branch"].keys()),
+                                        list(self.md_dict.data["elements"]["generator"].keys()),
+                                        GeneratorScenarios=self.generatorscenarios, first_time=self.first_time)
 
 
     def create_extensive_form(self):
@@ -117,6 +128,20 @@ class threeStagesDispatch:
         return self.ef
 
 if __name__ == '__main__':
-    tsd = threeStagesDispatch(test_case="RTS-GMLC", verbose=False, relaxation=True)
+    tsd = threeStagesDispatch(test_case="RTS-GMLC", verbose=False, relaxation=True, generator_scenario=True)
     tsd.create_extensive_form()
-    tsd_ieee = threeStagesDispatch(test_case="IEEE", verbose=True)
+
+    # scenario_names = tsd.scenario_names
+    # creator_options = tsd.creator_options
+    # scenario_name = scenario_names[0]
+    # cb_data = tsd.cb_data
+    # md_dict = tsd.md_dict
+    # relaxation = True
+    # first_time = 0
+
+    # tsd_ieee = threeStagesDispatch(test_case="IEEE", verbose=True)
+
+    # begin_time = "2020-01-27 00:00:00"
+    # end_time = "2020-01-28 00:00:00"
+    # md_dict = rtsparser.create_ModelData(cb_data["epath"], begin_time, end_time, simulation="REAL_TIME",
+    #                                      t0_state=None)
